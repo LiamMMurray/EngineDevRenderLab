@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{d8967a55-758b-4fdc-870a-a55b38bc5e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DirectXTK">
+      <UniqueIdentifier>{d3452ee8-dab5-4b0d-9e9c-6073f997c244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EngineDevelopment">
+      <UniqueIdentifier>{f5743ff2-91c7-43df-ba2d-99c9541bc509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics I">
+      <UniqueIdentifier>{e8ff6196-38c9-4551-ab2b-d89aacc653a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EngineDevelopment\Lab I">
+      <UniqueIdentifier>{41b766dc-8c55-4c17-92e5-8e5ad39694ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EngineDevelopment\Lab II">
+      <UniqueIdentifier>{fb6b18bb-2ef6-495f-a6c3-3a58d7b730c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EngineDevelopment\Lab III">
+      <UniqueIdentifier>{69f85ba6-df2e-4577-9cde-8bbbef2325aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Header Files\DirectXTK</Filter>
+    </ClCompile>
+    <ClCompile Include="XTime.cpp">
+      <Filter>Header Files\Graphics I</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Header Files\DirectXTK</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Header Files\DirectXTK</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonStates.cpp">
+      <Filter>Header Files\DirectXTK</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexTypes.cpp">
+      <Filter>Header Files\DirectXTK</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d11_renderer_impl.cpp">
+      <Filter>Header Files\EngineDevelopment\Lab I</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>Header Files\EngineDevelopment\Lab I</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_renderer.cpp">
+      <Filter>Header Files\EngineDevelopment\Lab II</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererUtilityFunctions.cpp">
+      <Filter>Header Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>Header Files\EngineDevelopment\Lab III</Filter>
+    </ClCompile>
+    <ClCompile Include="load_terrain.cpp">
+      <Filter>Header Files\EngineDevelopment\Lab III</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererUtilityFunctions.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Header Files\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="XTime.h">
+      <Filter>Header Files\Graphics I</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Header Files\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Header Files\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformHelpers.h">
+      <Filter>Header Files\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="StepTimer.h">
+      <Filter>Header Files\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonStates.h">
+      <Filter>Header Files\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedResourcePool.h">
+      <Filter>Header Files\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DemandCreate.h">
+      <Filter>Header Files\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXHelpers.h">
+      <Filter>Header Files\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexTypes.h">
+      <Filter>Header Files\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="view.h">
+      <Filter>Header Files\EngineDevelopment\Lab I</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d11_renderer_impl.h">
+      <Filter>Header Files\EngineDevelopment\Lab I</Filter>
+    </ClInclude>
+    <ClInclude Include="math_types.h">
+      <Filter>Header Files\EngineDevelopment\Lab I</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>Header Files\EngineDevelopment\Lab I</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_renderer.h">
+      <Filter>Header Files\EngineDevelopment\Lab II</Filter>
+    </ClInclude>
+    <ClInclude Include="pools.h">
+      <Filter>Header Files\EngineDevelopment\Lab II</Filter>
+    </ClInclude>
+    <ClInclude Include="bvh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Header Files\EngineDevelopment\Lab III</Filter>
+    </ClInclude>
+    <ClInclude Include="load_terrain.h">
+      <Filter>Header Files\EngineDevelopment\Lab III</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
